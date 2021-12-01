@@ -1,0 +1,35 @@
+{
+  "name": "chalkboardd",
+  "version": "1.0.0",
+  "description": "<a href = \"https://gagandeep1051.github.io/ChalkBoardd/\"> Chalkboard Home Page  ## Individual contributions <br>  Gagandeep Singh: Worked on CSS for admin view and all student related pages, I learned how to make the spacing for the website really nice as well as apply the css selectors we have been learning. <br> Gursharn Singh: Worked on css for Roster view and all instructor related pages, I learned how to make a website responsive using bootstrap.",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "Node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gagandeep1051/ChalkBoardd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gagandeep1051/ChalkBoardd/issues"
+  },
+  "homepage": "https://github.com/Gagandeep1051/ChalkBoardd#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hps": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}

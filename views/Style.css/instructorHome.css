@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+
+
+}
+* {
+  background-color: #f0f8ff;
+}
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+nav {
+  text-align: center;
+}
+
+.home-button,
+.course-home,
+.sign-out {
+  background: black;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  border: 0;
+}
+.delete,
+.add-instructor,
+.remove-instructor,
+.roster,
+.leave-course,
+.button,
+.create,
+.course-page {
+  flex-direction: column;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 6px;
+  color: #fff;
+  background: linear-gradient(180deg, darkblue 0%, darkblue 100%);
+  background-origin: border-box;
+  box-shadow: 0 1px 1.5px rgba(54, 122, 246, 0.25),
+    inset 0 0.8px 0 -0.25px rgba(255, 255, 255, 0.2);
+  display: flex;
+}
+h4{
+  line-height: 1px;
+}
+
+.delete:focus {
+  box-shadow: inset 0 0.8px 0 -0.25px rgba(255, 255, 255, 0.2),
+    0 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    0 0 0 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.logo {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.buttons{
+  display: flex;
+}
+#flags{
+  position: relative;
+  float: right;
+}
+h3{
+
+
+}
+.lectures{
+  margin: 20px;
+  padding: 20px;
+
+}
+
+p,h3{
+  margin: 20px;
+}
