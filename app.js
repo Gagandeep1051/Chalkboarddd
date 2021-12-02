@@ -21,7 +21,6 @@ db.connect((error) => {
   }
 });
 
-
 const publicDirectory = path.join(__dirname, "./views");
 app.use(express.static(publicDirectory));
 app.use(express.urlencoded({ extended: false }));
